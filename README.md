@@ -8,7 +8,7 @@
 
 **[Live Demo Folio (Vercel)](https://folio-mini-project.vercel.app/)**
 
-**[Presentasi Google Slides](https://docs.google.com/presentation/d/1B0pZcFQl2AkYLTdbVkl2nElRr5kXA7PU-qSTqfiylLw/edit?slide=id.p#slide=id.p)**
+**[Presentasi Proyek (PDF)](PPT_Folio_MiniProject_SBD5_Pagi.pdf)**
 
 ## Dokumentasi Lengkap
 Untuk pemahaman yang lebih komprehensif mengenai proyek ini, silakan baca dokumen pendukung yang tersedia pada folder `docs/`:
