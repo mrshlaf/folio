@@ -6,7 +6,9 @@
 [![Language](https://img.shields.io/badge/Language-JavaScript%20%2B%20Python-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[Presentasi Google Slides](https://docs.google.com/presentation/d/1B0pZcFQl2AkYLTdbVkl2nElRr5kXA7PU-qSTqfiylLw/edit?slide=id.p#slide=id.p)
+**[Live Demo Folio (Vercel)](https://folio-mini-project.vercel.app/)**
+
+**[Presentasi Google Slides](https://docs.google.com/presentation/d/1B0pZcFQl2AkYLTdbVkl2nElRr5kXA7PU-qSTqfiylLw/edit?slide=id.p#slide=id.p)**
 
 ## Dokumentasi Lengkap
 Untuk pemahaman yang lebih komprehensif mengenai proyek ini, silakan baca dokumen pendukung yang tersedia pada folder `docs/`:
