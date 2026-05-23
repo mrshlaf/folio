@@ -47,13 +47,13 @@ app.use(async (req, res, next) => {
   }
 })
 
-app.use('/api/auth', authRoutes)
-app.use('/api/books', bookRoutes)
-app.use('/api/users', userRoutes)
-app.use('/api/search', searchRoutes)
+app.use('/auth', authRoutes)
+app.use('/books', bookRoutes)
+app.use('/users', userRoutes)
+app.use('/search', searchRoutes)
 
 // Vercel Cron Endpoint
-app.get('/api/cron/evaluate-shelf', async (req, res) => {
+app.get('/cron/evaluate-shelf', async (req, res) => {
   try {
     // Note: Vercel Cron sends a secret header, but we'll leave it open for simplicity
     // or validate if process.env.CRON_SECRET is provided.
@@ -69,7 +69,7 @@ app.get('/api/cron/evaluate-shelf', async (req, res) => {
   }
 })
 
-app.get('/api/health', (_req, res) => res.json({ status: 'ok', ts: new Date() }))
+app.get('/health', (_req, res) => res.json({ status: 'ok', ts: new Date() }))
 
 app.use((err, _req, res, _next) => {
   console.error(err.stack)
