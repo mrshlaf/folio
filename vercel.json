@@ -1,15 +1,15 @@
 {
-  "outputDirectory": "frontend/dist",
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index.js"
+  "experimentalServices": {
+    "frontend": {
+      "root": "frontend",
+      "routePrefix": "/",
+      "framework": "vite"
     },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+    "backend": {
+      "root": "backend",
+      "routePrefix": "/api"
     }
-  ],
+  },
   "crons": [
     {
       "path": "/api/cron/evaluate-shelf",
