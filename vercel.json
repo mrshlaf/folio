@@ -1,0 +1,19 @@
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/dist/$1"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/evaluate-shelf",
+      "schedule": "0,30 * * * *"
+    }
+  ]
+}
